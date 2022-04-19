@@ -1,0 +1,129 @@
+#app{
+    background: #031442e5;
+    color: rgb(231, 141, 22);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#entryHolder{
+    background-color: lightskyblue;
+    width: 500px;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+
+.holder {
+    margin: 15px;
+}
+
+.headline{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.feel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    color: navy;
+    background-color: lightskyblue;
+    width: 140px;
+    padding: 7px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+body{
+    background: #031442e5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-size: 36px;
+}
+
+label{
+    display:block;
+    font-size: 27px;
+    text-align: center;
+}
+
+input{
+    background: lightskyblue;
+    color: navy;
+    height: 60px;
+    width: 320px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+}
+
+button{
+    background: #2a354d;
+    color: #ffaf38;
+    display: block;
+    width: 400px;
+    height: 100px;
+    margin: 20px;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 2px 4px 5px #444;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: midnightblue;
+    color: mintcream;
+    transition: ease 0.5s all;
+}
+
+textarea{
+    background: rgb(211, 238, 255);
+    color: navy;
+    width: 320px;
+    height: 100px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-align: justify;
+    border: none;
+}
+
+/* Reset style for HTML element on active to have no border */
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+/* Style for Placeholder Text */
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: navy; 
+    font-family: 'Oswald', sans-serif;
+
+}
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #f0d43a; 
+    font-family: 'Oswald', sans-serif;
+
+}
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #f0d43a; 
+    font-family: 'Oswald', sans-serif;
+
+}

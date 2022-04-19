@@ -1,0 +1,25 @@
+{
+  "name": "weather-journal-app",
+  "version": "1.0.0",
+  "main": "server.js",
+  "description": "",
+  "author": "Hadir Wahid",
+  "license": "ISC",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hadirwahidd/FWD---Weather-Journal-App.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hadirwahidd/FWD---Weather-Journal-App/issues"
+  },
+  "homepage": "https://github.com/hadirwahidd/FWD---Weather-Journal-App#readme"
+}
